@@ -16,3 +16,5 @@ a = a / 2;
 
 a = String(a);
 console.log(a);
+
+b = Number(a);
