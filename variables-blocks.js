@@ -1,14 +1,10 @@
 var a = 42;
 
-let b = 2;
-const c = 42;
-
-function d() {
-    
+function foo() {
+    a = 10;
+    bar(a / 2);
 }
 
-if (a > 10) {
-    var a = 42;
-    foo(a / 2);
-}
+var c;
 
+foo();
