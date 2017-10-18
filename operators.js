@@ -1,2 +1,5 @@
+a = 21;
 
-a = (b * 2) + foo(c * 3);
+b = a * 2;
+
+console.log( b );
