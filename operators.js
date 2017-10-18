@@ -1,3 +1,1 @@
-a = a + 2;
-// More better way to do it.
-a += 2;
+a = b * 2;
