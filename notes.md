@@ -19,3 +19,14 @@ function d() {
       
 }
 ```
+
+### falsy values:
+
+```javascript
+0 -0 NaN
+""
+false
+null
+undefinded
+
+```
