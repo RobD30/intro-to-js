@@ -1,10 +1,12 @@
-function printAmount() {
-    console.log( amount.toFixed( 2 ) );
+function foo(b) {
+    a *= 2;
+    a += b;
 }
 
-var amount = 99.99;
+a = 10;
 
-printAmount();
-amount *= 2;
+foo(5);
+foo(25);
+foo(100);
 
-printAmount();
+console.log(a);
