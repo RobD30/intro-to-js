@@ -28,5 +28,4 @@ function d() {
 false
 null
 undefinded
-
 ```
