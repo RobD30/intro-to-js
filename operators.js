@@ -21,4 +21,10 @@ a = 42;
 a /= 2;
 a = String(a);
 
+b = Number(a);
+
+const c = 42;
+
+console.log(b);
 console.log(a);
+console.log(c);
